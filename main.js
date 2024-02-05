@@ -17,7 +17,18 @@ let numOfPapers = 6;
 let maxLocation = numOfPapers + 1;
 
 function openBook() {
-  book.style.transform = "translateX(50%)";
+  const screenWidth = window.innerWidth;
+  let translateXPercentage;
+
+  if (screenWidth <= 431) {
+    translateXPercentage = 35;
+  } else if (screenWidth <= 902) {
+    translateXPercentage = 25;
+  } else {
+    translateXPercentage = 50;
+  }
+
+  book.style.transform = `translateX(${translateXPercentage}%)`;
   prevBtn.style.transform = "translateX(0px)";
   nextBtn.style.transform = "translateX(0px)";
 }

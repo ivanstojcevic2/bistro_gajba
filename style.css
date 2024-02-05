@@ -6,6 +6,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .roboto-medium {

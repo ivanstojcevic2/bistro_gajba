@@ -274,9 +274,9 @@ a {
 .ketering {
   width: 25%;
   height: 60%;
-  margin-left: -50%;
+  margin-left: -50.5%;
   margin-top: 20%;
-  padding: 20px;
+  padding: 12px;
   background-color: white;
   z-index: 1000;
   position: relative;
@@ -619,7 +619,6 @@ i {
   padding-bottom: 10px;
   position: relative;
   color: white;
-  z-index: 1;
 }
 
 #gallery h1::after {
@@ -757,6 +756,7 @@ i {
   display: flex;
   padding-bottom: 3%;
   justify-content: space-evenly;
+  font-size: 100%;
 }
 
 .footer img {
@@ -787,6 +787,16 @@ i {
 
   .over button {
     width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content2 {
+    margin-top: 5%;
+  }
+
+  .dogadaji {
+    font-size: 1.25rem;
   }
 }
 
@@ -861,7 +871,6 @@ i {
   .dogadaji {
     background-color: rgb(240, 229, 216);
     text-align: center;
-    height: 600px;
   }
 
   .dogadaji p {
@@ -934,5 +943,10 @@ i {
 
   .menu {
     height: 390px;
+  }
+
+  .footer {
+    width: 250px;
+    margin-left: 17%;
   }
 }

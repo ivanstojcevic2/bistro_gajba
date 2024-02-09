@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./main.js" defer></script>
+    <script src="main.js" defer></script>
     <title>Gajba</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target="main-navbar">
@@ -154,25 +154,55 @@
       <img src="img/ketering.jpg" class="ketering" />
     </div>
     <div class="dojmovi">
-      <h1>DOJMOVI</h1>
-      <p>Pročitajte poslijednje dojmove naših gostiju</p>
-      <div class="kartice">
-        <div class="kartica">
+      <h2>DOJMOVI</h2>
+      <div class="slideshow-container2">
+        <div class="mySlides2 fade2">
+          <h4>Renata F.</h4>
           <p>
-            "Odličan bistro. Vrhunska klopa, usluga, interijer, a i dostavljač
-            je kao speedy gonzales. Andaleee. 🙂"
+            Sve pohvale kuharici i osoblju 😍 Velike porcije · Jeftina jela ·
+            Velik izbor jela · Izvrsna hrana
           </p>
         </div>
-        <div class="kartica">
+        <div class="mySlides2 fade2">
+          <h4>Filip B.</h4>
           <p>
-            "Vrhunska hrana, normalne cijene, brza usluga, ma sve najbolje!!"
+            Vrhunska hrana, normalne cijene, brza usluga ma sve
+            najbolje...preporucam
           </p>
         </div>
-        <div class="kartica">
+        <div class="mySlides2 fade2">
+          <h4>Mladen K.</h4>
           <p>
-            "Svaka čast na ljubaznom osoblju i odličnoj hrani. Imate moju
-            preporuku."
+            Svaka čast na ljubaznom osoblju i odličnoj hrani. Imate moju
+            preporuku.
           </p>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <h4>Mirela L.</h4>
+          <p>
+            Dostava na sekundu kako je i dogovoreno, meso perfektno, svaki komad
+            mesa od njih preko 15 je bio jako dobro začinjen i pečen, komadi
+            mesa daleko veći od očekivanog, prvi put sam od njih naručivala i
+            skroz pogodila, apsolutno sve je skroz i samo pozitivno. Definitivno
+            ne moram dalje istraživati od kog ću ubuduće naručivati jela. Svi
+            smo bili prezadovoljni a svi smo zahtjevni roštiljoljupci.
+          </p>
+        </div>
+
+        <div class="mySlides2 fade2">
+          <h4>Biljana L.</h4>
+          <p>
+            Odličan gablec. Uvijek dobar izbor. Prostor uredan. Usluga brza.
+            Totalni profići 👍
+          </p>
+        </div>
+        <div style="text-align: center; margin-top: 10px">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       </div>
     </div>
@@ -196,31 +226,62 @@
           </div>
           <div class="back">
             <div id="b1" class="back-content">
-              <h1>Back 1</h1>
               <table>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>
+                    <h3>Doručak</h3>
+                  </td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Omlet</td>
+                  <td>€ 5,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Jaja na oko sa kobasicama</td>
+                  <td>€ 6,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td><h3>Juhe</h3></td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Domaća goveđa juha</td>
+                  <td>€ 3,20</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Paradajz juha</td>
+                  <td>€ 3,20</td>
+                </tr>
+                <tr>
+                  <td>Juha od šampinjona</td>
+                  <td>€ 3,80</td>
+                </tr>
+
+                <tr>
+                  <td><h3>Topa predjela</h3></td>
+                </tr>
+
+                <tr>
+                  <td>Mazalice 6 kom.</td>
+                  <td>€ 4,80</td>
+                </tr>
+
+                <tr>
+                  <td>Omlet</td>
+                  <td>€ 5,00</td>
+                </tr>
+
+                <tr>
+                  <td>Mazalice sa kajmakom</td>
+                  <td>€ 6,30</td>
+                </tr>
+
+                <tr>
+                  <td>Pohani sir</td>
+                  <td>€ 6,50</td>
+                </tr>
+                <tr>
+                  <td>Šampinjoni sa žara</td>
+                  <td>€ 3,50</td>
                 </tr>
               </table>
             </div>
@@ -230,62 +291,75 @@
         <div id="p2" class="paper">
           <div class="front">
             <div id="f2" class="front-content">
-              <h1>Front 2</h1>
               <table>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td><h3>Dječji menu</h3></td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Pileći pohanac</td>
+                  <td>€ 6,20</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
-                </tr>
-                <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
-                </tr>
-                <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
-                </tr>
-                <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Dječji mix</td>
+                  <td>€ 5,60</td>
                 </tr>
               </table>
             </div>
           </div>
           <div class="back">
             <div id="b2" class="back-content">
-              <h1>Back 2</h1>
               <table>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td><h3>Tjestenina rižoto njoki</h3></td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Špageti Carbonara</td>
+                  <td>€ 7,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Njoki 4 vrste sira</td>
+                  <td>€ 7,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Zapečeni njoki</td>
+                  <td>€ 8,50</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Tagliatelle sa piletinom</td>
+                  <td>€ 8,40</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Špageti / Rižoto plodovi mora</td>
+                  <td>€ 7,00</td>
+                </tr>
+
+                <tr>
+                  <td>Njoki sa pršutom</td>
+                  <td>€ 8,40</td>
+                </tr>
+                <tr>
+                  <td>Šareni rižoto</td>
+                  <td>€ 6,50</td>
+                </tr>
+                <br />
+                <tr>
+                  <td><h3>Jela s roštilja</h3></td>
+                </tr>
+                <tr>
+                  <td>Čevapi mali</td>
+                  <td>€ 4,50</td>
+                </tr>
+                <tr>
+                  <td>Gajba burger</td>
+                  <td>€ 7,20</td>
+                </tr>
+                <tr>
+                  <td>Gajba burger u lepinji</td>
+                  <td>€ 7,80</td>
+                </tr>
+                <tr>
+                  <td>Kebab u lepinji</td>
+                  <td>€ 8,00</td>
                 </tr>
               </table>
             </div>
@@ -295,62 +369,85 @@
         <div id="p3" class="paper">
           <div class="front">
             <div id="f3" class="front-content">
-              <h1>Front 3</h1>
               <table>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td><h3>Jela sa roštilja</h3></td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Bečki sendvić u hamby pecivu</td>
+                  <td>€ 6,20</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Hamburger u pecivu</td>
+                  <td>€ 5,80</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Hamburger u lepinji</td>
+                  <td>€ 6,50</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Cheeseburger u pecivu</td>
+                  <td>€ 6,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Cheeseburger u lepinji</td>
+                  <td>€ 6,70</td>
+                </tr>
+                <tr>
+                  <td>Pileći giros u lepinji</td>
+                  <td>€ 7,20</td>
+                </tr>
+                <tr>
+                  <td>Pileći hamby u lepinji</td>
+                  <td>€ 6,50</td>
+                </tr>
+                <tr>
+                  <td>Čevapi veliki</td>
+                  <td>€ 6,20</td>
                 </tr>
               </table>
             </div>
           </div>
           <div class="back">
             <div id="b3" class="back-content">
-              <h1>Back 3</h1>
               <table>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td><h3>Jela sa roštilja</h3></td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Šiš ćevapi veliki</td>
+                  <td>€ 7,00</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Šiš ćevapi mali</td>
+                  <td>€ 5,80</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Ražnjiči veliki sa lepinjom</td>
+                  <td>€ 7,30</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Ražnjići mali sa lepinjom</td>
+                  <td>€ 5,80</td>
                 </tr>
                 <tr>
-                  <td>Hrana</td>
-                  <td>5,00</td>
+                  <td>Pileći file menu</td>
+                  <td>€ 7,80</td>
+                </tr>
+
+                <tr>
+                  <td>Pileći ražnjići</td>
+                  <td>€ 7,00</td>
+                </tr>
+
+                <tr>
+                  <td>Pileći ražnjići omotani slaninom</td>
+                  <td>€ 7,50</td>
+                </tr>
+
+                <tr>
+                  <td>Punjeni odkošteni batak</td>
+                  <td>€ 6,50</td>
                 </tr>
               </table>
             </div>
@@ -360,12 +457,97 @@
         <div id="p4" class="paper">
           <div class="front">
             <div id="f4" class="front-content">
-              <h1>Front 4</h1>
+              <table>
+                <tr>
+                  <td><h3>Jela sa roštilja</h3></td>
+                </tr>
+                <tr>
+                  <td>Pileća krilca u BBQ umaku</td>
+                  <td>€ 8,20</td>
+                </tr>
+                <tr>
+                  <td>Mesni uštipci</td>
+                  <td>€ 7,80</td>
+                </tr>
+                <tr>
+                  <td>Kotlet</td>
+                  <td>€ 5,00</td>
+                </tr>
+                <tr>
+                  <td>Vratina</td>
+                  <td>€ 5,00</td>
+                </tr>
+                <tr>
+                  <td>Vratina menu</td>
+                  <td>€ 7,80</td>
+                </tr>
+                <tr>
+                  <td>Punjena vješalica u maramici</td>
+                  <td>€ 8,00</td>
+                </tr>
+                <tr>
+                  <td>Punjeni ćevapi</td>
+                  <td>€ 7,50</td>
+                </tr>
+
+                <tr>
+                  <td>Pljeskavica</td>
+                  <td>€ 6,20</td>
+                </tr>
+
+                <tr>
+                  <td>Punjena pljeskavica</td>
+                  <td>€ 7,50</td>
+                </tr>
+
+                <tr>
+                  <td>Gurmanska pljeskavica</td>
+                  <td>€ 7,50</td>
+                </tr>
+                <tr>
+                  <td>Pljeskavica s kajmakom</td>
+                  <td>€ 7,70</td>
+                </tr>
+              </table>
             </div>
           </div>
           <div class="back">
             <div id="b4" class="back-content">
-              <h1>Back 4</h1>
+              <table>
+                <tr>
+                  <td><h3>Preporuka grill majstora</h3></td>
+                </tr>
+                <tr>
+                  <td>Mješano meso</td>
+                  <td>€ 10,70</td>
+                </tr>
+                <tr>
+                  <td>
+                    Plata gajba za dvije osobe <br />
+                    (2 ražnjića, 2 vratine, 2 gurmanske pljeskavice, <br />
+                    2 mesna uštipka, punjena vješalica, povrće na žaru <br />
+                    prženi krumnpir)
+                  </td>
+                  <td>€ 27,00</td>
+                </tr>
+                <tr>
+                  <td>
+                    Plata gurmanska za 3 osobe <br />(3 šiš ćevapa, 3 kobasice,
+                    3 gratinirani pileći file, <br />
+                    3 gurmanske pljeskavice, pomfri, lepinje)
+                  </td>
+                  <td>€ 34,00</td>
+                </tr>
+                <tr>
+                  <td>
+                    Obiteljska plata za 5 osoba <br />(12 ćevapa, 4 pileća
+                    filea, 4 bečka odreska, <br />
+                    2 otkoštena batka, 4 ražnjića, prženi krumpir, povrće sa
+                    žara)
+                  </td>
+                  <td>€ 42,00</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
@@ -373,12 +555,79 @@
         <div id="p5" class="paper">
           <div class="front">
             <div id="f5" class="front-content">
-              <h1>Front 5</h1>
+              <table>
+                <tr>
+                  <td><h3>Jela po narudžbi</h3></td>
+                </tr>
+                <tr>
+                  <td>
+                    Zagrebački odrezak <br />
+                    (S prilogom)
+                  </td>
+                  <td>€ 9,50</td>
+                </tr>
+                <tr>
+                  <td>
+                    Bečki odrezak <br />
+                    (S prilogom)
+                  </td>
+                  <td>€ 8,20</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Lignje</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Lignje pržene i prilog</td>
+                  <td>€ 9,00</td>
+                </tr>
+                <tr>
+                  <td>Lignje na žaru i prilog</td>
+                  <td>€ 10,00</td>
+                </tr>
+              </table>
             </div>
           </div>
           <div class="back">
             <div id="b5" class="back-content">
-              <h1>Back 5</h1>
+              <table>
+                <tr>
+                  <td><h3>Velike salate</h3></td>
+                </tr>
+                <tr>
+                  <td>
+                    Salata od tune <br />
+                    (Svježe povrće, slatki feferoni <br />
+                    masline, maslinovo ulje, kuhano jaje, tuna)
+                  </td>
+                  <td>€ 6,50</td>
+                </tr>
+                <tr>
+                  <td>
+                    Toplo-Hladna salata Gajba <br />
+                    (Svježe povrće, piletina sa žara, dressing)
+                  </td>
+                  <td>€ 6,80</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>Salate</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Salate razne</td>
+                  <td>€ 2,80</td>
+                </tr>
+                <tr>
+                  <td>Šopska salata</td>
+                  <td>€ 4,50</td>
+                </tr>
+                <tr>
+                  <td>Feta salata</td>
+                  <td>€ 5,00</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
@@ -386,11 +635,175 @@
         <div id="p6" class="paper">
           <div class="front">
             <div id="f6" class="front-content">
-              <h1>Front 6</h1>
+              <table>
+                <tr>
+                  <td><h3>Prilog</h3></td>
+                </tr>
+                <tr>
+                  <td>Pomfrit</td>
+                  <td>€ 2,60</td>
+                </tr>
+                <tr>
+                  <td>Riža na maslacu</td>
+                  <td>€ 2,60</td>
+                </tr>
+                <tr>
+                  <td>Povrće na žaru</td>
+                  <td>€ 4,20</td>
+                </tr>
+                <tr>
+                  <td>Prženi krumpir</td>
+                  <td>€ 2,60</td>
+                </tr>
+                <tr>
+                  <td>Zapečeni grah</td>
+                  <td>€ 4,20</td>
+                </tr>
+                <tr>
+                  <td>Kroketi</td>
+                  <td>€ 3,50</td>
+                </tr>
+                <tr>
+                  <td>Njoki</td>
+                  <td>€ 3,50</td>
+                </tr>
+                <tr>
+                  <td><h3>Dodaci</h3></td>
+                </tr>
+                <tr>
+                  <td>Tartar</td>
+                  <td>€ 1,80</td>
+                </tr>
+                <tr>
+                  <td>Majoneza</td>
+                  <td>€ 1,50</td>
+                </tr>
+                <tr>
+                  <td>Ketcap, Ajvar</td>
+                  <td>€ 1,50</td>
+                </tr>
+                <tr>
+                  <td>Kajmak</td>
+                  <td>€ 1,50</td>
+                </tr>
+                <tr>
+                  <td>Lepinja</td>
+                  <td>€ 1,60</td>
+                </tr>
+              </table>
             </div>
           </div>
           <div class="back">
             <div id="b6" class="back-content">
+              <table>
+                <tr>
+                  <td><h3>Topli napitci</h3></td>
+                </tr>
+                <tr>
+                  <td>Espresso</td>
+                  <td>€ 1,30</td>
+                </tr>
+                <tr>
+                  <td>Kava sa mlijekom</td>
+                  <td>€ 1,60</td>
+                </tr>
+
+                <tr>
+                  <td>Kava sa šlagom</td>
+                  <td>€ 1,80</td>
+                </tr>
+                <tr>
+                  <td>Bijela kava</td>
+                  <td>€ 1,80</td>
+                </tr>
+                <tr>
+                  <td>Cappucino</td>
+                  <td>€ 1,60</td>
+                </tr>
+                <tr>
+                  <td>Topla čokolada</td>
+                  <td>€ 2,00</td>
+                </tr>
+                <tr>
+                  <td>Kakao</td>
+                  <td>€ 2,00</td>
+                </tr>
+                <tr>
+                  <td>
+                    Instant kava <br />
+                    (Vanilija, čokolada, irish)
+                  </td>
+                  <td>€ 1,80</td>
+                </tr>
+                <tr>
+                  <td>Čajevi</td>
+                  <td>€ 1,60</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div id="p7" class="paper">
+          <div class="front">
+            <div id="f7" class="front-content">
+              <table>
+                <tr>
+                  <td><h3>Bezalkoholna pića</h3></td>
+                </tr>
+                <tr>
+                  <td>Coca Cola</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Sprite</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Fanta</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Schwepps</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Prirodni sokovi</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Ledeni Čaj</td>
+                  <td>€ 2,20</td>
+                </tr>
+                <tr>
+                  <td>Kakao</td>
+                  <td>€ 2,00</td>
+                </tr>
+                <tr>
+                  <td>Mirelna gazirana voda 1L</td>
+                  <td>€ 3,00</td>
+                </tr>
+                <tr>
+                  <td>Mineralna gazirana voda 0,20L</td>
+                  <td>€ 0.60</td>
+                </tr>
+                <tr>
+                  <td>Negazirana voda 0,33L</td>
+                  <td>€ 1,80</td>
+                </tr>
+                <tr>
+                  <td>Negazirana voda 0,75L</td>
+                  <td>€ 2,50</td>
+                </tr>
+                <tr>
+                  <td>Jamnica 0,25L</td>
+                  <td>€ 2,00</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="back">
+            <div id="b7" class="back-content">
               <h1>Back 6</h1>
             </div>
           </div>
@@ -471,17 +884,81 @@
     </section>
 
     <div class="footer">
-      <img src="img/logo.jpg" />
-      <h3>Za više informacija nazovite: <br />01 2047 098</h3>
-      <h3>
-        Kobiljačka cesta 52,<br />
-        10360, Sesvete
-      </h3>
+      <div class="naslovi">
+        <div class="podnaslov">
+          <img src="img/logo.jpg" class="slicica" />
+        </div>
+        <div class="podnaslov">
+          <h3>RADNO VRIJEME</h3>
+          <p>
+            Ponedjeljak : 8h – 17h<br />
+            Utorak : 8h – 17h<br />
+            Srijeda: 8h – 17h<br />
+            Četvrtak : 8h – 17h<br />
+            Petak : 8h – 18h<br />
+            Subota : 8h – 17h<br />
+            Nedjelja : ZATVORENO
+          </p>
+        </div>
+        <div class="podnaslov">
+          <h3>KAKO DO NAS?</h3>
+          <p>
+            Kobiljačka cesta 52,<br />
+            10360, Sesvete
+          </p>
+        </div>
+
+        <div class="podnaslov">
+          <h3>
+            ZA VIŠE INFORMACIJA<br />
+            POSTJETITE:
+          </h3>
+          <p>
+            <a href="https://www.facebook.com/bistrogajba/" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Bootstrap JavaScript and dependencies -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const accordionElements =
+          document.querySelectorAll(".accordion-element");
+
+        function handleAccordionClick(event) {
+          accordionElements.forEach((element) => {
+            element.classList.remove("active-accordion-element");
+          });
+
+          const clickedElement = event.target.closest(".accordion-element");
+          if (clickedElement) {
+            clickedElement.classList.add("active-accordion-element");
+          }
+        }
+
+        accordionElements.forEach((element) => {
+          element.addEventListener("click", handleAccordionClick);
+        });
+
+        // Postavljanje početnog aktivnog elementa (npr. element 5)
+        const defaultActiveElement = document.getElementById(
+          "accordion-element-5"
+        );
+        if (defaultActiveElement) {
+          defaultActiveElement.classList.add("active-accordion-element");
+        }
+      });
+
+      window.onscroll = function () {
+        growShrinkLogo();
+      };
+    </script>
   </body>
 </html>
